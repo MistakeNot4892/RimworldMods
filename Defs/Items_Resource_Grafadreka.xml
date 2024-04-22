@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggGrafadrekaFertilized</defName>
+    <label>grafadreka egg (fert.)</label>
+    <description>A fertilized grafadreka egg. If all goes well, it should hatch into a baby grafadreka. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <color>(48,104,100)</color>
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <statBases>
+      <Nutrition>0.5</Nutrition>
+      <MarketValue>18.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>6</hatcherDaystoHatch>
+        <hatcherPawn>Grafadreka</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

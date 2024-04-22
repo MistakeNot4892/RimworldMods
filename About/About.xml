@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>MistakeNot.Grafadreka</packageId>
+  <name>Grafadreka</name>
+  <author>MistakeNot</author>
+  <description>Adds grafadreka.</description>
+  <supportedVersions>
+  <li>1.5</li>
+  </supportedVersions>
+  <modVersion>0.1</modVersion>
+</ModMetaData>
