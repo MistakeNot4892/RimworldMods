@@ -5,7 +5,7 @@
     <defName>Grafadreka</defName>
     <label>grafadreka</label>
     <devNote>warg-1</devNote>
-    <description>A species of low-slung, heavy, quadrupedal reptiles, sometimes called snow drakes. Although they are cautious and skittish, when provoked they can easily kill an unprepared human.\n\nGrafadreka hunt in packs, and have been known to be trainable as working animals.</description>
+    <description>A species of low-slung, heavy, quadrupedal reptile, sometimes called snow drakes. Although they are cautious and skittish, when provoked they can easily kill an unprepared human.\n\nGrafadreka hunt in packs, and have been known to be trainable as working animals.</description>
     <statBases>
       <MoveSpeed>5.0</MoveSpeed>
       <MarketValue>450</MarketValue>
@@ -15,6 +15,9 @@
     </statBases>
     <race>
       <animalType>Canine</animalType>
+      <thinkTreeMain>Grafadreka</thinkTreeMain>
+      <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
+      <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <predator>true</predator>
       <petness>0.5</petness>
@@ -155,9 +158,11 @@
     <defName>Grafadreka</defName>
     <label>grafadreka</label>
     <race>Grafadreka</race>
+    <abilities>
+      <li>GrafadrekaSpit</li>
+    </abilities>
     <combatPower>160</combatPower>
     <ecoSystemWeight>0.5</ecoSystemWeight>
-
     <lifeStages>
       <li>
         <label>grafadreka hatchling</label>
