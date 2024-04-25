@@ -7,7 +7,7 @@
     <description>Spit a glob of sap at a target.</description>
     <cooldownTicksRange>120</cooldownTicksRange>
     <aiCanUse>true</aiCanUse>
-    <iconPath>GrafadrekaSpittle</iconPath>
+    <iconPath>Effects/GrafadrekaSpittle</iconPath>
     <warmupStartSound>Ability_GrafadrekaSpitWarn</warmupStartSound>
     <verbProperties>
       <verbClass>Verb_AbilityShoot</verbClass>
@@ -16,6 +16,10 @@
       <range>5.9</range>
       <defaultProjectile>GrafadrekaSpittle</defaultProjectile>
       <ai_IsWeapon>false</ai_IsWeapon>
+      <targetParams>
+        <canTargetBuildings>false</canTargetBuildings>
+        <neverTargetIncapacitated>true</neverTargetIncapacitated>
+      </targetParams>
     </verbProperties>
   </AbilityDef>
 
@@ -24,14 +28,14 @@
     <label>spittle</label>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>
-      <texPath>GrafadrekaSpittle</texPath>
+      <texPath>Effects/GrafadrekaSpittle</texPath>
     </graphicData>
     <projectile>
-      <damageDef>RangedStab</damageDef>
+      <damageDef>Stun</damageDef>
       <armorPenetrationBase>1</armorPenetrationBase>
       <stoppingPower>1</stoppingPower>
       <speed>55</speed>
-      <damageAmountBase>9</damageAmountBase>
+      <damageAmountBase>5</damageAmountBase>
     </projectile>
   </ThingDef>
 

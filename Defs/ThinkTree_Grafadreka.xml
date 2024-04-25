@@ -12,13 +12,13 @@
               <ability>GrafadrekaSpit</ability>
               <subNodes>
                 <li Class="ThinkNode_ConditionalUnderCombatPressure">
-                  <maxThreatDistance>2</maxThreatDistance>
-                  <minCloseTargets>2</minCloseTargets>
+                  <maxThreatDistance>5.9</maxThreatDistance>
+                  <minCloseTargets>1</minCloseTargets>
                   <subNodes>
                     <li Class="JobGiver_AIAbilityFight">
                       <targetAcquireRadius>30</targetAcquireRadius>
                       <targetKeepRadius>35</targetKeepRadius>
-                      <skipIfCantTargetNow>false</skipIfCantTargetNow>
+                      <skipIfCantTargetNow>true</skipIfCantTargetNow>
                       <ability>GrafadrekaSpit</ability>
                       <allowTurrets>true</allowTurrets>
                       <needLOSToAcquireNonPawnTargets>true</needLOSToAcquireNonPawnTargets>

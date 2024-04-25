@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <packageId>MistakeNot.Grafadreka</packageId>
-  <name>Grafadreka</name>
+  <name>Sivian Ecology</name>
   <author>MistakeNot</author>
-  <description>Adds grafadreka.</description>
+  <description>Adds several forms of flora and fauna from Sif, the frozen garden world setting of the Polaris SS13 fork.</description>
   <supportedVersions>
   <li>1.5</li>
   </supportedVersions>
